@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as met
 from math import log10, sqrt
 
-photo_data = plt.imread("dog.jpg") # change this for the name of image you are using
+photo_data = plt.imread("dog.jpg") 
 plt.figure(figsize = (10,10))
 plt.imshow(photo_data)
 plt.title("Original Image")
